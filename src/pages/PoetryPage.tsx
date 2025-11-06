@@ -11,12 +11,14 @@ const Section = styled.section`
 `
 
 // 페이지 제목 - 그라데이션 텍스트 효과
+//참고사항 회색선선
+
 const PageTitle = styled.h2`
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 3rem;
   // 그라데이션 텍스트 효과
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #b8a9d9 0%, #e8a8d4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -59,7 +61,7 @@ const SectionTitle = styled.h3`
     transform: translateX(-50%);  // 중앙 정렬
     width: 50px;
     height: 3px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #b8a9d9 0%, #e8a8d4 100%);
     border-radius: 2px;
   }
 `
@@ -88,7 +90,7 @@ const Card = styled.div`
   &:hover {
     transform: translateY(-5px);  // 위로 5px 이동
     box-shadow: 0 15px 35px rgba(0,0,0,0.1);  // 그림자 강화
-    border-color: #667eea;  // 테두리 색상 변경
+    border-color: #b8a9d9;  // 테두리 색상 변경
   }
 `
 

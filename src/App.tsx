@@ -20,7 +20,7 @@ const Container = styled.div`
 
 // 헤더 영역 - 그라데이션 배경과 그림자 효과
 const Header = styled.header`
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); // 대각선 그라데이션
+  background: linear-gradient(135deg, #d4c5f9 0%, #f8c5e8 100%); // 파스텔 그라데이션
   color: white;
   padding: 1rem 0;
   margin-bottom: 2rem;
@@ -112,7 +112,7 @@ function Layout() {
 const HomeSection = styled.section`
   text-align: center;
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); // 연한 그라데이션
+  background: linear-gradient(135deg, #fef0ff 0%, #e6f0ff 100%); // 파스텔 그라데이션
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);  // 부드러운 그림자
 `
@@ -123,7 +123,7 @@ const HomeTitle = styled.h1`
   color: #2c3e50;
   margin-bottom: 1rem;
   // 그라데이션 텍스트 효과 (웹킷 브라우저)
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #b8a9d9 0%, #e8a8d4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
