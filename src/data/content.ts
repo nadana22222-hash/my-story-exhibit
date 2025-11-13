@@ -17,7 +17,7 @@ export const poetryImages = [
 export const poetryTexts = [
   { 
     id: 'pt1', 
-    title: '나의 인생', 
+    title: '내가 살아가는 힘', 
     content: `처음의 나는
 엄마의 웃음 속에서 자라났다
 아침밥 냄새, 가족의 웃음소리,
