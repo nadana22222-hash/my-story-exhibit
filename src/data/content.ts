@@ -58,7 +58,7 @@ export const poetryTexts = [
 export const songTexts = [
   { 
     id: 'st1', 
-    title: '나의 노래', 
+    title: '나의 다짐', 
     content: `처음의 나는 엄마의 품 안에서 웃었다
 밥 냄새, 손길, 작은 말 한마디가 세상의 전부였다
 가족과 함께한 길 위의 바람, 

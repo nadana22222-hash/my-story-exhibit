@@ -319,7 +319,7 @@ export default function SongPage() {
   return (
     <Section>
       {/* 페이지 제목 */}
-      <PageTitle>나의노래</PageTitle>
+      <PageTitle>나의 다짐</PageTitle>
       
       {/* 콘텐츠 그리드 - 가사와 오디오 섹션 */}
       <ContentGrid>
